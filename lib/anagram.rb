@@ -9,7 +9,9 @@ class Anagram
   def match(arr_words)
     obj_word = word
     
-    obj_word = obj_word.split
+    obj_word = obj_word.split("").sort
+    
+    
     
   end
 end
