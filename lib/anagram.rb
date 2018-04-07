@@ -11,7 +11,7 @@ class Anagram
     
     obj_word = obj_word.split("").sort
     
-    
-    
+    rtn = arr_words.select {|w| obj_word == w.split("").sort}
+    rtn
   end
 end
